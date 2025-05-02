@@ -2,9 +2,12 @@ import React from 'react';
 
 function LandingPage() {
   return (
-    <div className="bg-[url('./assets/objects.png')] bg-cover bg-center size-4">
-    </div>
-  );
+  <>
+  <div>
+    <img src='src\assets\Frame.png' className='w-screen'></img>
+  </div>
+  </>
+    );
 }
 
 export default LandingPage;
