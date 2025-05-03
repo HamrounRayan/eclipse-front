@@ -1,16 +1,15 @@
 import { useState } from 'react'
-import './App.css'
-import './landingpage'
+
 import LandingPage from './landingpage'
 import Navbar from './Navbar'
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
+
+  
   return (
     <>
-    <Navbar></Navbar>
+      <Navbar />
     </>
   )
 }
-
 export default App
